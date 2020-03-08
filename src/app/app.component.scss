@@ -1,0 +1,85 @@
+header {
+margin-top: 2em;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 1em;
+}
+
+.menu {
+  display: grid;
+  justify-content: end;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 1.5em;
+}
+
+.menu ul li{
+  display: inline;
+  margin-right: 2.5em;
+  font-weight: bold;
+}
+
+.menu ul li:before {
+content: "\00BB";
+}
+
+
+
+
+
+
+
+
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 1em;
+  margin-top: 10em;
+}
+
+.item1 {
+  background-color: red;
+
+}
+
+.item2 {
+  background-color: green;
+  display: grid;
+  justify-content: end;
+}
+
+
+
+.items {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 1em;
+  margin-top: 10em;
+}
+
+.items1 {
+  background-color: red;
+
+}
+
+.items2 {
+  background-color: green;
+  display: grid;
+  justify-content: end;
+}
+
+.items2 ul li {
+display:inline-block;
+}
+
+.items2 ul li:before {
+content: "\20D3  \25CF"; margin-left:15px;
+}
